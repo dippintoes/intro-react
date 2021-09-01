@@ -66,7 +66,7 @@ class App extends React.Component {
 
     /* Change below to render students*/
 
-    /*if (this.state.buttonClicked === "students") {
+    if (this.state.buttonClicked === "students") {
       tabChoice = (
         <List
           placeholder="Add Students..." 
@@ -75,7 +75,7 @@ class App extends React.Component {
           title="Student Roster"
         />
       );
-    }*/
+    }
 
     /* Uncomment lines below to render grades*/
     /*if (this.state.buttonClicked === "grades") {
